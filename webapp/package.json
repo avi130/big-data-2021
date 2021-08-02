@@ -1,0 +1,11 @@
+{
+  "name": "BGIDATA",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.17.1",
+    "ejs": "~1.0.0",
+    "redis": "~3.1.2",
+    "bluebird": "~3.7.2",
+    "mongoose": "~5.13.3"
+  }
+}

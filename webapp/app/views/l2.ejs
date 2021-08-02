@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="5">
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+<body>
+<h1><%= l2.length%> vehicles in section 2 </h1>
+<h2>List of vehicles in section 2 : </h2>
+<ol>
+<% for (var i = 0; i < l2.length; i++){ %>
+    <tr><td><li>Car number  <%= l2[i] %></li></td></tr>
+<%}%>
+</ol>
+</body>
+</html>

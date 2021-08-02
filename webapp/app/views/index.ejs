@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><%= title %></title>
+<meta http-equiv="refresh" content="5">
+<style>
+h1 {text-align: center;}
+table {text-align: center;}
+div {text-align: center;}
+background-image: url('img_girl.jpg');
+</style>
+</head>
+<body>
+<h1><%= title %></h1>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+</style>
+
+<table>
+    <tr>
+        <th colspan="7">Predicted Exit Section</th>
+    </tr>
+    <tr>
+        <th rowspan="7">Actual Exit Section</th>
+    </tr>
+    <tr width="40%">
+      <th></th>
+      <th width="15%">1</th>
+      <th width="15%">2</th>
+      <th width="15%">3</th>
+      <th width="15%">4</th>
+      <th width="15%">5</th>
+    </tr>
+    <tr >
+      <td >1</td>  
+      <td><%= p_1_1 %></td>
+      <td><%= p_1_2 %></td>
+      <td><%= p_1_3 %></td>
+      <td><%= p_1_4 %></td>
+      <td><%= p_1_5 %></td>
+    </tr>
+    <tr>
+      <td >2</td>  
+      <td><%= p_2_1 %></td>
+      <td><%= p_2_2 %></td>
+      <td><%= p_2_3 %></td>
+      <td><%= p_2_4 %></td>
+      <td><%= p_2_5 %></td>
+    </tr>
+    <tr >
+      <td >3</td>  
+      <td><%= p_3_1 %></td>
+      <td><%= p_3_2 %></td>
+      <td><%= p_3_3 %></td>
+      <td><%= p_3_4 %></td>
+      <td><%= p_3_5 %></td>
+    </tr>
+    <tr>
+      <td > 4</td>  
+      <td><%= p_4_1 %></td>
+      <td><%= p_4_2 %></td>
+      <td><%= p_4_3 %></td>
+      <td><%= p_4_4 %></td>
+      <td><%= p_4_5 %></td>
+    </tr>
+    <tr >
+      <td >5</td>  
+      <td><%= p_5_1 %></td>
+      <td><%= p_5_2 %></td>
+      <td><%= p_5_3 %></td>
+      <td><%= p_5_4 %></td>
+      <td><%= p_5_5 %></td>
+    </tr>
+</table> 
+</body>
+</html>
